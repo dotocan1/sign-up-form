@@ -1,4 +1,13 @@
 form {
     margin: 0 auto;
-    width: 50%;
+    width: 20rem;
+    text-align: left;
+}
+
+input[type="submit"]{
+    margin-top: 1rem;
+}
+
+input{
+    width: 100%;
 }
