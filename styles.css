@@ -1,12 +1,21 @@
 form {
     margin: 0 auto;
-    width: 20rem;
+    margin-top: 20rem;
+    width: 40rem;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     margin-top: 1rem;
 }
 
-input{
+input {
     width: 100%;
+}
+
+div{
+    display: flex;
+}
+
+.form-container{
+    flex-shrink: 0;
 }
