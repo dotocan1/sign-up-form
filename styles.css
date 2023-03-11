@@ -1,7 +1,17 @@
-form {
+:root {
+    --right-container-width: 40rem;
+}
+
+.form-item {
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: var(--right-container-width)
+}
+
+.paragraph-item {
     margin: 0 auto;
     margin-top: 20rem;
-    width: 40rem;
+    width: var(--right-container-width);
 }
 
 input[type="submit"] {
@@ -12,15 +22,18 @@ input {
     width: 100%;
 }
 
-.container{
+.container {
     display: flex;
 }
 
-.right-side-container{
+.right-side-container {
     display: flex;
     flex-direction: column;
+    column-gap: 5rem;
+    justify-content: center;
+    align-items: center;
 }
 
-.container{
-    display: flex;
+legend{
+    margin-bottom: 1rem;
 }
