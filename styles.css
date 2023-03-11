@@ -12,10 +12,15 @@ input {
     width: 100%;
 }
 
-div{
+.container{
     display: flex;
 }
 
-.form-container{
-    flex-shrink: 0;
+.right-side-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    display: flex;
 }
