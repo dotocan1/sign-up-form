@@ -5,13 +5,14 @@
 .form-item {
     margin: 0 auto;
     margin-top: 5rem;
-    width: var(--right-container-width)
+    /* width: var(--right-container-width); */
 }
 
 .paragraph-item {
     margin: 0 auto;
     margin-top: 20rem;
-    width: var(--right-container-width);
+    /* width: var(--right-container-width); */
+    text-align: left;
 }
 
 input[type="submit"] {
@@ -24,6 +25,7 @@ input {
 
 .container {
     display: flex;
+    column-gap: 3rem;
 }
 
 .right-side-container {
