@@ -1,9 +1,14 @@
 :root {
+    font-family: 'Work Sans', sans-serif;
+}
+
+p {
     font-family: sans-serif;
+    font-size: 24px;
 }
 
 .paragraph-item {
-    margin-top: 20rem;
+    margin-top: 10rem;
     text-align: left;
 }
 
@@ -31,10 +36,51 @@
     flex-flow: column nowrap;
 }
 
-input{
+input {
     width: 80%;
 }
 
-input[type="submit"]{
-    width: 6rem;
+input[type="submit"] {
+    width: 13.1rem;
+    height: 3rem;
+    margin-top: 2rem;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #5cb85c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"] {
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #555;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus {
+    outline: none;
+    border-color: #5cb85c;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 0 0 3px rgba(92, 184, 92, 0.5);
+}
+
+label {
+    margin-bottom: 0.5rem;
 }
