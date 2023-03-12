@@ -1,17 +1,12 @@
-:root {
-    --right-container-width: 40rem;
-}
-
 .form-item {
     margin: 0 auto;
     margin-top: 5rem;
-    /* width: var(--right-container-width); */
+    width: 30rem;
 }
 
 .paragraph-item {
     margin: 0 auto;
     margin-top: 20rem;
-    /* width: var(--right-container-width); */
     text-align: left;
 }
 
