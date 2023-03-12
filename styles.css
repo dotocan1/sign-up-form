@@ -1,4 +1,4 @@
-:root{
+:root {
     font-family: sans-serif;
 }
 
@@ -7,9 +7,6 @@
     text-align: left;
 }
 
-input[type="submit"] {
-    margin-top: 1rem;
-}
 .container {
     display: flex;
     column-gap: 3rem;
@@ -19,10 +16,25 @@ input[type="submit"] {
     display: block;
 }
 
-legend{
-    margin-bottom: 1rem;
+.paragraph-item>* {
+    margin-right: 10rem;
 }
 
-.paragraph-item > * {
-    margin-right: 10rem;
+.form-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem 6rem;
+}
+
+.form-item {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+input{
+    width: 80%;
+}
+
+input[type="submit"]{
+    width: 6rem;
 }
