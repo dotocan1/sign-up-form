@@ -2,7 +2,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-body{
+body {
     background-color: #F2F5F8;
 }
 
@@ -12,7 +12,7 @@ p {
     margin-left: 3rem;
 }
 
-form{
+form {
     margin-left: 3rem;
 }
 
@@ -94,8 +94,30 @@ label {
     margin-bottom: 0.5rem;
 }
 
-.form-div{
+.form-div {
     background-color: #FFFFFF;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.picture-text {
+    position: absolute;
+    top: 15rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 776px;
+}
+
+.picture-text p {
+    font-size: 10rem;
+    color: white;
+    padding: 1rem;
+    margin: 0rem;
+    margin-left: 5rem;
+    font-family: 'Monoton', cursive;
+}
+
+.picture-text img {
+    position: absolute;
+    top: 1rem;
+    left: 38rem;
+    height: 10rem;
+}
