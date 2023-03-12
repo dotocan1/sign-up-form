@@ -39,3 +39,11 @@ input {
 legend{
     margin-bottom: 1rem;
 }
+
+.paragraph-item > * {
+    margin-right: 10rem;
+}
+
+:root{
+    font-family: sans-serif;
+}
